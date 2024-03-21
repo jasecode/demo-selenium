@@ -7,7 +7,7 @@ public class BaseClass {
     public void setupDriver() {
         // Set the path to the ChromeDriver
         System.setProperty("webdriver.chrome.driver",
-                "/Users/jzhangmon/IdeaProjects/DemoSelenium/src/resource/chromedriver");
+                "<path-to-chromedriver>");
         driver = new ChromeDriver();
     }
 
