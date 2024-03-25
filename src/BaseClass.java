@@ -7,7 +7,7 @@ public class BaseClass {
     public void setupDriver() {
         // Set the path to the ChromeDriver
         System.setProperty("webdriver.chrome.driver",
-                "<path-to-chromedriver>");
+                "/Users/jzhangmon/Downloads/chromedriver-mac-arm64/chromedriver");
         driver = new ChromeDriver();
     }
 
